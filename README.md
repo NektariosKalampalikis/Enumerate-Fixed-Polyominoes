@@ -6,6 +6,8 @@ This is a repository that contains implementations of known algorithms to count 
 <a href="https://www.sciencedirect.com/science/article/pii/0012365X81902375">D.Hugh Redelmeier</a> - Work In Progress
 
 # Table of Values
+This Table is part of Table 2 of Iwan Jensen's article
+
 | Polyomino Size   | Number of Fixed Polyominoes  |   
 |---|---|
 |  1 |  1 | 
