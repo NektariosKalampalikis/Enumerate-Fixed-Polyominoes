@@ -1,5 +1,9 @@
 # Enumerate-Polyominoes
-This is a repository that contains implementations of known algorithms to count fixed polyominoes on python. An effort was made to mainly use python built-in modules.  
+This is a repository that contains implementations of known algorithms to count fixed polyominoes on python. An effort was made to mainly use python built-in modules. The code was written on Python version 3. ...
+
+# Links to scientific articles (to be) implemented
+<a href="https://www.sciencedirect.com/science/article/pii/0012365X81902375">D.Hugh Redelmeier</a>
+<a href="https://www.sciencedirect.com/science/article/pii/0012365X81902375">D.Hugh Redelmeier</a> - Work In Progress
 
 # Table of Values
 | Polyomino Size   | Number of Fixed Polyominoes  |   
@@ -50,12 +54,3 @@ This is a repository that contains implementations of known algorithms to count 
 |  44 |  4339784013643393384603906 | 
 |  45 |  17244800728846724289191074 |
 |  46 |  68557762666345165410168738 | 
-
-
-# How to use
-python
-version
-# Links to scientific articles implemented
-<a href="https://www.sciencedirect.com/science/article/pii/0012365X81902375">D.Hugh Redelmeier</a>
-
-
