@@ -2,7 +2,7 @@
 This is a repository that contains implementations of known algorithms to count fixed polyominoes on python. An effort was made to mainly use python built-in modules.  
 
 # Table of Values
-| Polyomino Size   | Number of Fixed  |   
+| Polyomino Size   | Number of Fixed Polyominoes  |   
 |---|---|
 |  1 |  1 | 
 |  2 |  2 | 
