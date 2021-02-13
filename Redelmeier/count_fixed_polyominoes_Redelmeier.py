@@ -15,8 +15,7 @@ def Neighbors(p,u,v): #check if node v is a neighbor of u , but v is untried
         left=(i[0]-1 ,i[1] )
         if right==v or upper==v or down==v or left==v:
             return True
-    else:
-        return False
+    return False
 
 def CountFixedPolyominoes(G,untried,n,p): #Redelmeier's algorithm
     global c 
@@ -74,7 +73,7 @@ def PolyominoGraph(n): #square lattice for : {(x,y)|(y>0) or (y=0) and x>=0}
 #untried= an untried set of nodes
 
 if __name__=="__main__":
-    n=int(input("Size of polyominoes:"))
+    n=int(input("Size of polyomino:"))
     G=PolyominoGraph(n)
     untried={(0,0)}
     p=[]
