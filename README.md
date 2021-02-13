@@ -1,5 +1,5 @@
 # Enumerate-Polyominoes
-Implementations of known algorithms to count polyominoes
+This is a repository that contains implementations of known algorithms to count fixed polyominoes on python. An effort was made to mainly use python built-in modules.  
 
 # How to use
 python
