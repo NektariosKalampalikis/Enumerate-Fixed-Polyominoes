@@ -73,13 +73,13 @@ def PolyominoGraph(n): #square lattice for : {(x,y)|(y>0) or (y=0) and x>=0}
 #untried= an untried set of nodes
 
 if __name__=="__main__":
-    n=int(input("Size of polyomino:"))
+    n=int(input("Size of polyomino: "))
     G=PolyominoGraph(n)
     untried={(0,0)}
     p=[]
     c=0
-    printswitch=input("Do you want to pretty print the graph?(y/n):")
+    printswitch=input("Do you want to pretty print the graph?(y/n): ")
     if printswitch=="y" or printswitch=="yes":
         pprint.pprint(G)
     CountFixedPolyominoes(G,untried,n,p)
-    print(c)
+    print("Total Polyominoes: ",c)
