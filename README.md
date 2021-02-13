@@ -5,4 +5,6 @@ Implementations of known algorithms to count polyominoes
 python
 version
 # Links to scientific articles implemented
-D.Hugh Redelmeier: https://www.sciencedirect.com/science/article/pii/0012365X81902375
+<a href="https://www.sciencedirect.com/science/article/pii/0012365X81902375">D.Hugh Redelmeier</a>
+
+
