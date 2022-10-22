@@ -1,13 +1,14 @@
-# Enumerate-Polyominoes
-This is a repository that contains implementations of known algorithms to count fixed polyominoes on python. An effort was made to mainly use python built-in modules. The code was written on Python version 3.8.5.
+# Enumerate Fixed Polyominoes
+Python implementation based on [1] to count the number of fixed polyominoes [2] for every possible number of tiles. According to [1], "a polyomino is a geometrical shape consisting of a number of square tiles, with each two of them sharing a side". If rotations and reflections are allowed, then the set of polyominoes is called free. Otherwise, it is called fixed. For instance, with 5 tiles we get the following [1] :
 
-# Links to scientific articles (to be) implemented
-<a href="https://www.sciencedirect.com/science/article/pii/0012365X81902375">D.Hugh Redelmeier</a> <br/>
-<a href="https://www.researchgate.net/publication/225250986_Enumerations_of_Lattice_Animals_and_Trees">Iwan Jensen</a> - Work In Progress
+![pentominoes](https://louridas.github.io/rwa/assignments/polyominoes/pentominoes_fixed.png)
 
-# Table of Values
-This Table is part of Table 2 of Iwan Jensen's article
+Since the algorithm implemented in this repository has exponential complexity, it is recommended for sizes up to 15. For higher number of tiles a faster algorithm such as the one found in [3] should be used. A great introductory source with examples is [1].
 
+The code has been developed and tested on Python 3.9.4. Apart from the optional pprint module, which is used to "pretty print" a dictionary, only Python3 built-in modules have been used.
+
+# Values for different sizes
+In the following table the number of different fixed polyominoes of size up to and including 46 according to [3], is presented: 
 | Polyomino Size   | Number of Fixed Polyominoes  |   
 |---|---|
 |  1 |  1 | 
@@ -55,4 +56,12 @@ This Table is part of Table 2 of Iwan Jensen's article
 |  43 |  1092687308874612006972082 |
 |  44 |  4339784013643393384603906 | 
 |  45 |  17244800728846724289191074 |
-|  46 |  68557762666345165410168738 | 
+|  46 |  68557762666345165410168738 |
+
+
+# References
+[1] [Github of the book: Louridas, Panos. Real-world Algorithms: A Beginner's Guide. MIT Press, 2017](https://louridas.github.io/rwa/assignments/polyominoes/) 
+
+[2] Redelmeier, D. Hugh. "Counting polyominoes: yet another attack." Discrete Mathematics 36.2 (1981): 191-203.
+
+[3] Jensen, Iwan. "Enumerations of lattice animals and trees.", Journal of statistical physics 102.3 (2001): 865-881.
